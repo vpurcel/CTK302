@@ -37,6 +37,6 @@ function draw() {
     print("for debugging")
   }
 
-  text(mouseX + " , " + mouseY, 10); // print mouse locations to canvas
+  text(mouseX + " , " + mouseY, 10,10); // print mouse locations to canvas
 
 }
