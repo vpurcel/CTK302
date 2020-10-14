@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-function setup() {
-  createCanvas(500, 500);
-}
 
-function draw() {
-
-}
-=======
 var x = 0;
 
 //var
@@ -131,6 +123,3 @@ circle(230, 185, 10);
   if (x > width) {
   x=-400;}
 }
-
-  
->>>>>>> b2a9ed8eef7187c4afa7d8f35654192b93bdcd1b
