@@ -38,7 +38,7 @@ function gotData(data) {
 
   // iterate through the array of data and create an object and push it on an array called bubbles
   for (let i = 0; i < data.length; i++) {
-    bubbles.push(new Bubble(data[i].Service, data[i].Boardgame,data[i].User)); // THESE Name and Shape need to match your column names in your spreadsheet!
+    bubbles.push(new Bubble(data[i].Service, data[i].Boardgame,data[i].Name)); // THESE Name and Shape need to match your column names in your spreadsheet!
   }
 
 }
@@ -60,11 +60,11 @@ function draw() {
 // my Bubble class
 class Bubble {
 
-  constructor(myService, myBoardgame, myUser) {
+  constructor(myService, myBoardgame, myName) {
 
     this.service = myService; //this.name = myName;
     this.boardgame = myBoardgame; //    this.shape = myShape;
-    this.user = myUser; //this.name = myName;
+    this.name = myName; //this.name = myName;
     this.pos = createVector(random(width), random(height));
 
   }
@@ -87,7 +87,7 @@ class Bubble {
 
     text(this.service, this.pos.x, this.pos.y - 20);
     text(this.boardgame, this.pos.x, this.pos.y + 20);
-    text(this.user, this.pos.x, this.pos.y);
+    text(this.name, this.pos.x, this.pos.y);
   }
 drive() {
 this.pos.x += 1;
