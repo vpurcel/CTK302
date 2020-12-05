@@ -38,7 +38,7 @@ function gotData(data) {
 
   // iterate through the array of data and create an object and push it on an array called bubbles
   for (let i = 0; i < data.length; i++) {
-    bubbles.push(new Bubble(data[i].Service, data[i].Boardgame,data[i].Name)); // THESE Name and Shape need to match your column names in your spreadsheet!
+    bubbles.push(new Bubble (data[i].Service, data[i].Boardgame,data[i].Name)); // THESE Name and Shape need to match your column names in your spreadsheet!
   }
 
 }
