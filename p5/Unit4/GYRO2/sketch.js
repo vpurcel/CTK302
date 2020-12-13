@@ -58,7 +58,7 @@ function draw() {
   // draw the FROG
   // image(bunnyImage, 0, 0, 500, 500);
 
-  image(imgmask, 100, 100, 150, 150);
+  image(imgmask, 0, 0, 150, 150);
   pop();
 
 
@@ -80,7 +80,7 @@ function draw() {
   fill('White');
   textFont(f4)
   textSize(25);
-  text("Wear your Mask! :)", width / 2, 600, windowWidth - 200, windowHeight - 200);
+  text("Wear your Mask! :)", width / 2, 600, windowWidth - 100, windowHeight - 300);
 
 }
 
