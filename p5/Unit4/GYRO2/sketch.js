@@ -80,7 +80,7 @@ function draw() {
   fill('White');
   textFont(f4)
   textSize(25);
-  text("Wear your Mask! :)", width / 2, 600, windowWidth - 100, windowHeight - 300);
+  text("Wear your Mask! :)", width / 2, 600, windowWidth/3, windowHeight/3);
 
 }
 
