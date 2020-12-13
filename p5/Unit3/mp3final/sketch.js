@@ -61,7 +61,6 @@ function draw() {
     case 0: //menu
 
       stopSongs();
-      mySound1.play();
 
 
 
